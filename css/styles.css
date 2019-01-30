@@ -34,23 +34,25 @@ a:focus {
     min-height: 640px;
 }
 
-.tm-section-home { background-image: url(../img/image-02.png); background-color: rgb(46, 45, 45);}
-.tm-section-about { background-image: url(../img/image-05.png);}
-.tm-section-story { background-image: url(../img/image-03.png); }
+.tm-section-home { background-image: url(../img/background.jpg); background-color: rgb(46, 45, 45);}
+.tm-section-about { background-image: url(../img/intro.jpg);}
+.tm-section-story { background-image: url(../img/story.jpg); }
 .tm-section-faction { 
-	background-image: url(../img/image-07.png); 
+	background-image: url(../img/fac.jpg); 
 	min-height: 450px;
 }
 .tm-section-contact { 
-	background-image: url(../img/image-05.png);
+	background-image: url(../img/intro2.jpg);
 	min-height: 200px;
 	background-color: rgb(115, 115, 115);
 }
-.tm-section-map { background-image: url(../img/map.png); 
+.tm-section-map { background-image: url(../img/world2.jpg); 
 	background-size: cover;
-	background-size: 650px;
+	/* background-size: 200px; */
+	/* background-size: cover; */
+	/* background-size: 650px;
 	background-position-x: 150px;
-	background-color: rgb(46, 45, 45);
+	background-color: rgb(46, 45, 45); */
 }
 
 .navbar-toggler {
